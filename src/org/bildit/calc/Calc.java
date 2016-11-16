@@ -8,9 +8,11 @@ public class Calc {
 
 	public static void addition(double a, double b) {
 
+		System.out.println(a + b);
 	}
 
 	public static void substraction(double a, double b) {
+		System.out.println(a - b);
 
 	}
 
@@ -20,6 +22,14 @@ public class Calc {
 
 	public static void division(double a, double b) {
 
+		if (b != 0) {
+			double c = a / b;
+
+			System.out.println(c);
+
+		} else {
+			System.out.println("Nemoguce dijeliti nulom ");
+		}
 	}
 
 	public static void squareRoot(double a) {
