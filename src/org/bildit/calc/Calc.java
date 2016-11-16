@@ -11,10 +11,12 @@ public class Calc {
 
 	}
 
-	public static void substraction(double a, double b) {
+	
+	public static void substraction(double a, double b){
+		System.out.println(a - b);
 
 	}
-
+	
 	public static void multiplication(double a, double b) {
 
 	}
