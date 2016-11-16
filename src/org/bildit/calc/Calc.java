@@ -5,9 +5,15 @@ public class Calc {
 	public static void main(String[] args) {
 
 	}
+<<<<<<< HEAD
 
 	public static void addition(double a, double b) {
 
+=======
+	
+	public static void addition(double a, double b){
+		System.out.println(a + b);
+>>>>>>> 385d1780144c47d078791984b9c4b9073b8af009
 	}
 
 	public static void substraction(double a, double b) {
