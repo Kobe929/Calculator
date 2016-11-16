@@ -3,6 +3,16 @@ package org.bildit.calc;
 public class Calc {
 
 	public static void main(String[] args) {
+		double a = Math.random() * 10;
+		double b = Math.random() * 10;
+		
+		System.out.println(a +" " + b);
+		addition(a,b);
+		substraction(a,b);
+		multiplication(a, b);
+		division(a, b);
+		squareRoot(a);
+		pow(a);
 
 	}
 
