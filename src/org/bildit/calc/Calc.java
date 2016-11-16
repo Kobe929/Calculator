@@ -16,7 +16,9 @@ public class Calc {
 	}
 
 	public static void multiplication(double a, double b) {
+		double c = a * b;
 
+		System.out.println(c);
 	}
 
 	public static void division(double a, double b) {
