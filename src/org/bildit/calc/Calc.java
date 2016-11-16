@@ -7,16 +7,15 @@ public class Calc {
 	}
 
 	public static void addition(double a, double b) {
-		System.out.println(a + b);
 
+		System.out.println(a + b);
 	}
 
-	
-	public static void substraction(double a, double b){
+	public static void substraction(double a, double b) {
 		System.out.println(a - b);
 
 	}
-	
+
 	public static void multiplication(double a, double b) {
 		double c = a * b;
 
@@ -24,6 +23,7 @@ public class Calc {
 	}
 
 	public static void division(double a, double b) {
+
 		if (b != 0) {
 			double c = a / b;
 
@@ -35,7 +35,7 @@ public class Calc {
 	}
 
 	public static void squareRoot(double a) {
-
+		System.out.println(Math.sqrt(a));
 	}
 
 	public static void pow(double a) {
