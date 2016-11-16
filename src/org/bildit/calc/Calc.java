@@ -39,7 +39,7 @@ public class Calc {
 	}
 
 	public static void pow(double a) {
-
+		System.out.println(Math.pow(a, 2));
 	}
 
 }
