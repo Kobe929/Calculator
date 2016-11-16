@@ -8,7 +8,7 @@ public class Calc {
 	}
 	
 	public static void addition(double a, double b){
-		
+		System.out.println(a + b);
 	}
 	
 	public static void substraction(double a, double b){
